@@ -15,9 +15,9 @@
         </ul>
 
        <div class="d-flex gap-2">
-        <a class="btn btn btn-info" type="submit">Registation</a>
-        <a class="btn  btn btn-primary" type="submit">Login</a>
-        <a class="btn  btn btn-warning" type="submit">Logout</a>
+        <a href="{{ route('register') }}" class="btn btn btn-info" type="submit">Registation</a>
+        <a href="{{ route('login') }}" class="btn  btn btn-primary" type="submit">Login</a>
+        {{-- <a href="{{ route('logout') }}" class="btn  btn btn-warning" type="submit">Logout</a> --}}
        </div>
 
 
